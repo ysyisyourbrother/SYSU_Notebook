@@ -1,0 +1,3 @@
+kernal是C语言写的库函数
+syscall是用汇编语言写的IO库函数
+主函数cmain会被monitor调用

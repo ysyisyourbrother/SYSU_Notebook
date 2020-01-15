@@ -1,0 +1,3 @@
+kernal是C语言写的库函数
+syscall是用汇编语言写的IO库函数  新增的时间中断、键盘中断用户中断等在这里
+主函数cmain会被monitor调用

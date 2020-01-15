@@ -1,0 +1,228 @@
+\documentclass[UTF8]{article}
+\usepackage{ctex}
+\usepackage{subfigure} %插入并排图片
+\usepackage{graphicx} %插入图片
+\usepackage{caption} % 用caption*{}取消图片编号
+\usepackage{enumerate} %列表的序号类型
+\usepackage{titlesec}	%改变标题文字属性
+\usepackage[colorlinks,linkcolor=blue,anchorcolor=blue]{hyperref}% 给网页添加超链接
+\usepackage{fancyhdr} %设置页眉
+\usepackage{xcolor}%设置颜色
+\usepackage{listings} %加入代码块
+\usepackage{CJKutf8} %用utf-8编译文档显示中文
+\usepackage {framed}%给文字加边框
+
+
+\title{	
+\normalfont \normalsize
+\textsc{School of Data and Computer Science, Sun Yat-sen University} \\ [25pt] %textsc small capital letters 设置字体
+\rule{\textwidth}{0.5pt} \\[0.4cm] % Thin top horizontal rule 设置支撑
+{\LARGE\heiti\bfseries  《操作系统实验》}\\[0.5cm] % The assignment title 设置字体大小
+{\huge\bfseries\heiti 实验五：系统调用的实现 } \\
+\rule{\textwidth}{2pt} \\[0.5cm] % Thick bottom horizontal rule
+\author{\Large17341190 叶盛源}
+\date{\normalsize\today}
+}
+
+\pagestyle{fancy}
+\lhead{\includegraphics[scale=0.5]{logo1.png}\includegraphics[scale=0.5]{logo2.png}}  %在此处插入logo.pdf图片 图片靠左
+\chead{\LARGE\heiti\bfseries操作系统实验报告} % 页眉中间位置内容
+\rhead{}%右侧页眉为空
+
+\titleformat*{\section}{\LARGE\bfseries}%设置标题属性 bfseries是加黑
+\titleformat*{\subsection}{\Large\bfseries}%设置标题属性
+\titlespacing*{\section} {0pt}{15pt}{-7pt}%设置标题和正文距离
+
+%\setcounter{secnumdepth}{2} % 此处设置显示第几级序号	
+
+\parindent=2em
+\newcommand{\bg}{\colorbox{gray!13}}%强调背景颜色
+\newcommand{\red}{\color{red}}
+
+%插入汇编代码的样式：
+\usepackage{xcolor} 
+\usepackage{listings} 
+\lstset{ 
+basicstyle=\small,% 
+escapeinside=``,% 
+keywordstyle=\color{red} \bfseries,% \underbar,% 
+identifierstyle={},% 
+commentstyle=\color{blue},% 
+stringstyle=\ttfamily,% 
+%labelstyle=\tiny,% 
+extendedchars=false,% 
+linewidth=\textwidth,% 
+numbers=left,% 
+numberstyle=\tiny \color{blue},% 
+frame=trbl% 
+}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+\heiti 
+
+\section{实验目的:}
+\noindent\rule[0.2\baselineskip]{\textwidth}{0.5pt}\\[-23pt]
+\vspace{0.25cm}
+\par操作系统除了执行用户的程序，还有义务为用户程序开发提供一些常用的服务,本次实验的目的就是开发一些系统调用的程序供用户程序使用。
+
+\section{实验要求:}
+\noindent\rule[0.2\baselineskip]{\textwidth}{0.5pt}\\[-23pt]
+\vspace{0.25cm}
+\par使用软中断实现系统服务
+
+
+\section{实验方案:}
+\noindent\rule[0.2\baselineskip]{\textwidth}{0.5pt}\\[-32pt]
+
+\subsection{实验环境：}
+\begin{enumerate}[1)]%设置列表的属性
+\heiti 
+\setlength{\itemsep}{0em}
+	\item 实验运行环境：Windows10
+	\item 虚拟机软件：VMware Function和DOSBox
+	\item TCC+Tasm+TLink 混合编译链接
+	\item NASM 编译器
+	\end{enumerate}
+\subsection{实验工具：}
+\begin{enumerate}[1)]%设置列表的属性
+\heiti\setlength{\itemsep}{0em}
+	\item 汇编语言：NASM、TASM
+	\item 文本编辑器：VScode、notepad++
+	\item 软盘操作工具：WinHex
+\end{enumerate}
+
+\subsection{实验原理和思想：}
+操作系统除了执行用户的程序，还有义务为用户程序开发提供一些常用的服务，高级语言中，可以使用系统调用，实现软件重用的效果操作系统提供的服务可以用多种方式供用户程序使用。
+\begin{enumerate}[1)]
+\heiti
+	\item 系统调用介绍：
+	\parindent=2em
+		\begin{enumerate}[i)]
+		\heiti \setlength{\itemsep}{0.2ex}
+			\item 子程序库静态链接：采用子程序调用方式，如汇编语言中用call指令调用操作系统提供服务的子程序，静态链接到用户程序代码中，这种方式优点是程序执行快，最大缺点是用户程序内在和外存空间占用多，子程序库管理维护工作复杂。
+			\item 内核子程序软中断调用：采用软中断方式，如汇编语言中用int指令调用操作系统提供服务的子程序，系统服务的子程序在内核，这种方式的优点是服务由系统提供，程序效率较高，且被所有用户程序代码共享，有利于节省内存，最大缺点是需要防止内核再入或内核设计为可再入，且用户程序陷入内核和内核返回用户程序的开销较大。
+			\item 子程序库动态链接：采用动态链接技术，操作系统在运行时响应子程序调用，加载相应的子服务程序并链接致用户地址空间，这种方式优点是可由多方提供服务程序，服务更内容丰富，增加和变更服务方便，最大缺点是链接耗时多，程序响应变慢，实现复杂。
+		\end{enumerate}
+		
+	\item 修改中断的思想
+		\begin{enumerate}[i)]
+		\heiti \setlength{\itemsep}{0.2ex}
+			\item 中断向量表：\par X86计算机在启动的时候，会在内存的低位区（地址为0~1023[3FFH]，1KB）创建含256个中断向量的表IVT （每个向量[地址]占4个字节，格式为：16位段值:16位偏移值）如下图figure1。CPU根据指令的中断号找到中断向量表的位置，然后取出表中中断服务程序的入口CS:IP并跳转。在中断服务子程序结束后，我们需要使用指令iret来返回主程序。
+			\begin{figure}[htbp]
+				\centering
+				\includegraphics[width=2.5in]{a1.png}
+				\caption{中断向量表}
+			\end{figure}
+			\newpage
+			\item 中断开启和屏蔽：\par\indent当我们进入中断程序的时候，为了防止其他中断再进入，我们可以选择屏蔽中断。使用指令\bg{CLI}就可以修改处理器状态字中的中断相关的对应位置，实现中断屏蔽。如果我们要开启中断的时候就可以使用\bg{STI}指令。当我们编写的硬件中断程序结束的时候，我们需要给8258芯片发送EOI信号来将ISR对应位置清零来结束中断服务程序。
+		\end{enumerate}
+	\item 软中断实现系统服务：
+	\heiti
+	\begin{enumerate}[i)]
+		\item 因为操作系统要提供的服务更多，服务子程序数量太多，但中断向量有限，因此，实际做法是专门指定一个中断号对应服务处理程序总入口，然后再将服务程序所有服务用功能号区分，并作为一个参数从用户中传递过来，服务程序再进行分支，进入相应的功能实现子程序。
+		\item 这种方案至少要求向用户公开一个中断号和参数表，即所谓的系统调用手册，供用户使用。
+		\item 如果用户所用的开发语言是汇编语言，可以直接使用软中断调用
+		\item 如果使用高级语言，则要用库过程封装调用的参数传递和软中断等指令汇编代替
+		\item \red{规定系统调用服务的中断号是21h。}
+	\end{enumerate}	
+\end{enumerate}
+
+\subsection{实验过程和思想：}
+\begin{enumerate}[1)]
+\heiti\setlength{\itemsep}{0em}
+	\item 编写21h号中断服务程序
+	\parindent=2em %2em缩进长度刚好是两个中文字符
+	\par\indent 在内核中新增int\_21h号程序段，并将原来编写的内核函数中间的程序段搬进新增的中断程序段中。要注意的是，搬进中断程序后因为变成了中断调用，返回的指令要改成使用iret而不是ret。而原来的子过程就要改为一个简单的中断程序调用，使用指令\bg{int 21h}。下图举例了将\bg{printchar}子过程移入中断程序段中，其他以此类推。
+\par因为内核中的系统服务程序比较多，我们在int\_21过程中可以使用功能号来实现系统服务。功能号一般放在寄存器\bg{ah}中，所以在子过程前我们需要用cmp函数搭配jz函数做一个类似\bg{switch\ case}语句段。但会发现因为跳转距离过长，导致jz无法跳转，所以要改为使用jnz搭配jmp来实现跳转更长的距离到目标程序段。下图展示了示例代码。
+			\begin{figure}[htbp]
+			\begin{minipage}[t]{\linewidth}
+			\centering
+			\includegraphics[width=2.1in]{n1.png}
+			\caption{原来的printchar函数}
+			\end{minipage}
+			\begin{minipage}[t]{\linewidth}
+				\centering
+			\includegraphics[width=2.1in]{n2.png}
+			\caption{移入中断的printchar程序段}
+			\end{minipage}
+			\begin{minipage}[t]{\linewidth}
+			\centering
+			\includegraphics[width=2in]{n3.png}
+			\caption{根据功能号跳转}
+			\end{minipage}
+		\end{figure}
+	\newpage
+	\item 修改中断向量表
+	\par所有的中断子程序都已经写完了，现在们需要修改中断向量表来让我们可以通过中断进入我们的子程序中，我在\bg{monitor.asm}文件中在调用\bg{cmain}函数前使用语句修改了向量表。我们通过中断向量号计算出内存的位置，再依次插入IP和CS的值完成修改，如下图：
+	\begin{figure}[htbp]
+			\centering
+			\includegraphics[width=3in]{n4.png}
+			\caption{修改中断向量表}
+		\end{figure}
+  \item 用软盘启动裸机:
+  \heiti\par将内核用tcc+tasm+tlink编译链接成.com文件，再把5个用户程序、list、batch和loader用nasm编译形成bin文件，加入到1.44MB软盘的合适扇区中并运行程序，虚拟机运行如下图：
+  \begin{figure}[htbp]
+			\centering
+			\includegraphics[width=2.2in]{a19.png}
+			\caption{开机界面}
+	\end{figure}
+	 \begin{figure}[htbp]
+			\centering
+			\includegraphics[width=2.2in]{a20.png}
+			\caption{操作系统界面}
+		\end{figure}
+		\begin{figure}[htbp]
+			\centering
+			\includegraphics[width=2.2in]{a21.png}
+			\caption{文件列表界面}
+		\end{figure}
+		\begin{figure}[htbp]
+			\centering
+			\includegraphics[width=2.2in]{a23.png}
+			\caption{用中断开启的用户程序}
+		\end{figure}
+
+	
+  \end{enumerate}
+
+\newpage
+\section{实验心得和总结：}
+\noindent\rule[0.2\baselineskip]{\textwidth}{0.5pt}
+\heiti
+\par 本次实验可以看做我们之前完成的简单内核的一个优化，也是和接下来实验的一个过渡，本次实验比起其他的时间过程比较简单，花费时间也不是很长，但也收获颇丰。
+\par 我们之前实现的操作系统高级语言调用内核函数的时候是直接调用汇编实现的子过程。但在真正的操作系统中，用户程序是不能直接触碰内核的，所以不可能就这样直接去随意的调用。不过操作系统也要实现一些简单的服务程序给用户程序去使用，所以就会在\bg{int 21h}这个中断服务号里实现一些服务程序并提供接口给用户程序去调用，内核并不全部开放让用户程序直接去取来用，这个在接下来的实验中是十分重要的，所以我们需要做这个修改，既是对我们之前实验的一个完善，也是对接下来实验的一个准备。
+\par 但其实在这次的实验中，并不是想象中那么顺利，我还是遇到了一些问题。例如一开始忘记了要在中断服务程序返回的时候使用iret，仍然使用ret，所以导致了我程序一直返回出错。后面在移动一个读list文件的函数进入中断程序的时候，也遇到了问题，就是一段一模一样的代码，在外面能正常运行，但在中断中就一直出错。后来才发现是寄存器ah没有清零，之前因为没有使用过ah所以没有出错。但这次因为要往ah中放功能号，ah的值不再是0，所以就出现了错误，在我的更改之后终于完成了实验。
+\par 在做实验前，就听很多同学说，这个实验比较简单，很多同学就20分钟完成了，但亲自上手的时候，缺花了不少的时间，原因就是我之前的代码不规范也不完善，导致了简单的移动反而出现了很多的问题，经过这次实验，优化了我的代码结构和规范了代码，为后面更好的完成实验打下了基础。
+\par 总而言之，这次实验还是比较顺利的完成了，希望在接下来的时间里还能继续完成更多的实验，学习到更多的知识！
+
+
+\section{参考文献:}
+\noindent\rule[0.2\baselineskip]{\textwidth}{0.5pt}
+\begin{enumerate}[1)]
+ \item nasm手册
+ \item \url{https://blog.csdn.net/longintchar/article/details/79511747}
+ \item \url{https://blog.csdn.net/cielozhang/article/details/6171783/}
+ \item \url{https://blog.csdn.net/lulipeng_cpp/article/details/8161982}
+ \item \url{https://www.cnblogs.com/alwaysking/p/7789282.html}
+\item \url{https://blog.csdn.net/cielozhang/article/details/6171783}
+\item
+\url{https://blog.csdn.net/lulipeng_cpp/article/details/8161982}
+\url{https://stackoverflow.com/questions/12882342/override-default-int-9h}
+\end{enumerate}
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
