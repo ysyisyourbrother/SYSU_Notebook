@@ -1,0 +1,16 @@
+Attribute:buying,maint,dorrs,persons,lug_boot,safety,Label
+vhigh,med,5more,4,big,med,1
+vhigh,med,4,4,small,low,0
+low,med,3,2,big,low,0
+low,vhigh,3,more,small,high,1
+vhigh,low,3,more,med,high,1
+low,vhigh,3,4,small,med,0
+high,vhigh,3,2,small,med,0
+low,high,5more,2,big,low,0
+high,low,2,4,big,high,1
+high,vhigh,2,4,med,med,0
+med,low,2,more,small,low,0
+vhigh,high,5more,4,small,high,0
+med,high,4,more,big,low,0
+med,vhigh,3,more,small,high,1
+low,low,5more,more,med,high,1
