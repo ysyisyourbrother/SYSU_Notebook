@@ -1,0 +1,64 @@
+syntax = "proto3";
+
+service FileServer {
+  rpc upload(stream Upload_Request) returns (Reply) {}   //这里的stream是代表字节流  用在yield中不可以去掉
+  rpc upload_without_syn(stream Upload_Request) returns (Reply) {}   //用在同步中，只上传文件，不再转发同步
+  rpc download(Download_Request) returns (stream Chunk) {}
+  rpc delete(Delete_Request) returns (Reply){}
+  rpc delete_without_syn(Delete_Request) returns (Reply){}
+  rpc list(List_Request) returns(List_Reply){}
+  rpc pwd(Empty) returns(PWD_Reply){}
+  rpc mkdir(Mkdir_Request) returns(Reply){}
+}
+
+//文件块
+message Chunk {
+    bytes buffer = 1;
+}
+
+// 定义空的参数类型 空的为0
+message Empty{
+    int32 empty = 1;
+}
+
+
+// 客户端发出一个字符串的请求 允许的文件操作有 upload download delete  +   目标文件名
+// 允许的系统指令包括  ls 列出文件目录  pwd 列出当前路径  cd+name 进入下一层文件夹   cd..返回上一层文件夹  mkdir+name 创建文件夹
+
+// 上传文件请求
+message Upload_Request{
+    string target_path = 1;
+    bytes buffer = 2;
+}
+
+// 下载文件请求
+message Download_Request {
+    string download_path = 1;
+}
+// 删除文件请求
+message Delete_Request {
+    string delete_path=1;
+}
+// list想要列出的路径
+message List_Request{
+    string cur_path=1;
+}
+// mkdir创建文件文件夹请求
+message Mkdir_Request{
+    string dir_path=1;
+}
+
+
+
+// 指令完成返回的成功信息 0为成功  1为失败
+message Reply {
+    int32 success = 1;
+}
+// 返回文件名列表
+message List_Reply{
+    string list=1;
+}
+// 获取访问的服务器根路径
+message PWD_Reply{
+    string pwd=1;
+}

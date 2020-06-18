@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+service DirServer {
+    rpc fileserver_online(FileServer_On) returns (Dir_Reply) {}
+    rpc fileserver_offline(FileServer_Off) returns (Dir_Reply) {}
+    rpc getfileserver(Dir_Empty) returns (FileServer_List){}
+}
+
+
+// 指令完成返回的成功信息 0为成功  1为失败
+message Dir_Reply {
+    int32 success = 1;
+}
+
+message Dir_Empty{
+    int32 empty=1;
+}
+
+// 和Fileserver交互，文件服务器登录或者下线发送信息给Dir服务器
+message FileServer_On{
+    int32 Server_ID=1;
+    string ip=2;
+    string port=3;
+    string location=4; // 服务器地理地址
+}
+message FileServer_Off{
+    int32 Server_ID=1;  // 服务器id，将下线服务器从目录中剔除
+}
+
+// 和client交互，发送所有在线的的文件服务器目录
+message FileServer_info{
+    int32 Server_ID=1;
+    string ip=2;
+    string port=3;
+    string location=4; // 服务器地理地址
+}
+message FileServer_List{
+    repeated FileServer_info server_list=1;
+}

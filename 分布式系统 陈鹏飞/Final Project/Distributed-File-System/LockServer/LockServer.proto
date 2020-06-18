@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+service LockServer {
+    rpc lockfile(lockfileinfo) returns (Lock_Reply){}  //客户端发送上锁请求，服务器返回锁的编号  失败的话返回success=-1
+    rpc unlockfile(unlockfileinfo) returns(Lock_Reply){} //客户端发送解锁请求，服务器返回成功与否
+}
+
+
+// 指令完成返回的成功信息 0为成功  1为失败
+message Lock_Reply {
+    int32 success = 1;
+}
+
+message Lock_Empty{
+    int32 empty=1;
+}
+
+// 和client交互，将目标文件锁起来，防止别的客户修改或下载
+message lockfileinfo{
+    int32 client_id = 1; // 锁这个文件的客户id
+    string file_path =2;//被锁的文件的服务器路径
+    string filename = 3; // 被锁文件的名字
+}
+
+message unlockfileinfo{
+    string file_path =2;//被锁的文件的服务器路径
+    string filename = 3; // 被锁文件的名字
+}
