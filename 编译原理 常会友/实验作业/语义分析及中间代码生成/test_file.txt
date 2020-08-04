@@ -1,0 +1,6 @@
+int A,B; {define int}
+bool D; {define bool}
+
+if D and true then
+	A:=1;
+end

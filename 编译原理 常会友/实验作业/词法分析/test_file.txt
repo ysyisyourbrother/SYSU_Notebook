@@ -1,0 +1,9 @@
+int A,B; {define int}
+string C; {define string}
+bool D; {define bool}
+C:='hello world'; {assign string}
+A:=1;
+B:=2;
+if A<=B do
+	D:=true;
+end
