@@ -4,7 +4,7 @@
 
 本项目分享了本人在中山大学数据科学与计算机学院计算机科学专业的课程资料、笔记、回忆和整理的期末考试卷、及课程作业。希望对你们有所帮助❤️，如果喜欢记得给个star🌟 
 
-本项目的内容都是精心挑选过的对大家有帮助的资料，包含近期的**期末考试考点**。仓库内都是本人及同学学习期间编写或整理的珍贵笔记资料！同学们可以自由取阅分享（转发请注明出处！谢谢）
+本项目的内容都是精心挑选过的对大家有帮助的资料，包含近期的**期末考试考点**。仓库内都是本人及同学大学学习期间编写或整理的珍贵笔记资料！同学们可以自由取阅分享（如若转发请注明出处！谢谢）
 
 
 
@@ -33,17 +33,25 @@
 | [机器学习与数据挖掘](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%20%E6%9D%83%E5%B0%8F%E5%86%9B) | 大三 下 | 权小军 | :green_book: | :blue_book: | :page_facing_up: | :white_check_mark: |
 | [云计算概论](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E4%BA%91%E8%AE%A1%E7%AE%97%E6%A6%82%E8%AE%BA%20%E9%99%88%E5%BF%97%E5%B9%BF) | 大三 下 | 陈志广 | :green_book: | :blue_book: | :page_facing_up: |                    |
 | [智能控制](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E6%99%BA%E8%83%BD%E6%8E%A7%E5%88%B6%20%E8%B0%AD%E5%AE%81) | 大三 下 | 谭宁   | :green_book: |             | :page_facing_up: |                    |
-| [智能算法与应用 王甲海](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E6%99%BA%E8%83%BD%E7%AE%97%E6%B3%95%E4%B8%8E%E5%BA%94%E7%94%A8%20%E7%8E%8B%E7%94%B2%E6%B5%B7) | 大三 下 | 王甲海 | :green_book: |             | :page_facing_up: |                    |
+| [智能算法与应用](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E6%99%BA%E8%83%BD%E7%AE%97%E6%B3%95%E4%B8%8E%E5%BA%94%E7%94%A8%20%E7%8E%8B%E7%94%B2%E6%B5%B7) | 大三 下 | 王甲海 | :green_book: |             | :page_facing_up: |                    |
 
 
 
 ## 其他资料
 
-### 面试相关
+### 互联网春秋招相关
 
 分享春秋招面试经历，包括leetcode刷题，基础知识，面经和相关准备资料等.
 
 git仓库地址点击👉：​​ [:running:](https://github.com/ysyisyourbrother/My-Leetcode)
+
+
+
+### 保研面试准备
+
+分享本人及同学保研（or考研）面试准备资料及面试经验
+
+资料地址点击👉： [:running:](https://github.com/ysyisyourbrother)
 
 
 
