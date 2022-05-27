@@ -36,7 +36,7 @@
 | [自然语言处理](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%20%E6%9D%83%E5%B0%8F%E5%86%9B) | 大三 上 | 权小军 | :green_book: | :blue_book: | :page_facing_up: | :white_check_mark: |
 | [编译原理](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%20%E5%B8%B8%E4%BC%9A%E5%8F%8B) | 大三 下 | 常会友 | :green_book: | :blue_book: | :page_facing_up: | :white_check_mark: |
 | [机器学习与数据挖掘](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%20%E6%9D%83%E5%B0%8F%E5%86%9B) | 大三 下 | 权小军 | :green_book: | :blue_book: | :page_facing_up: | :white_check_mark: |
-| [云计算概论](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E4%BA%91%E8%AE%A1%E7%AE%97%E6%A6%82%E8%AE%BA%20%E9%99%88%E5%BF%97%E5%B9%BF) | 大三 下 | 陈志广 | :green_book: | :blue_book: | :page_facing_up: |                    |
+| [云计算概论](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E4%BA%91%E8%AE%A1%E7%AE%97%E6%A6%82%E8%AE%BA%20%E9%99%88%E5%BF%97%E5%B9%BF) | 大三 下 | 陈志广 | :green_book: | :blue_book: | :page_facing_up: | :white_check_mark: |
 | [智能控制](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E6%99%BA%E8%83%BD%E6%8E%A7%E5%88%B6%20%E8%B0%AD%E5%AE%81) | 大三 下 | 谭宁   | :green_book: |             | :page_facing_up: |                    |
 | [智能算法与应用](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E6%99%BA%E8%83%BD%E7%AE%97%E6%B3%95%E4%B8%8E%E5%BA%94%E7%94%A8%20%E7%8E%8B%E7%94%B2%E6%B5%B7) | 大三 下 | 王甲海 | :green_book: |             | :page_facing_up: |                    |
 
