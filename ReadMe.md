@@ -41,6 +41,10 @@
 | [智能算法与应用](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E6%99%BA%E8%83%BD%E7%AE%97%E6%B3%95%E4%B8%8E%E5%BA%94%E7%94%A8%20%E7%8E%8B%E7%94%B2%E6%B5%B7) | 大三 下 | 王甲海 | :green_book: |             | :page_facing_up: |                    |
 
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ysyisyourbrother/SYSU_Notebook&type=Date)](https://star-history.com/#ysyisyourbrother/SYSU_Notebook&Date)
+
 
 ## 其他资料
 
