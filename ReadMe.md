@@ -44,6 +44,9 @@
 | [高级算法设计与分析](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1) | 研究生  | 卓汉逵,张子臻 | :green_book: |             | :page_facing_up: | :white_check_mark: |
 | [高等数值计算方法](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%AD%89%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95) | 研究生  | 张雨浓等      | :green_book: |             |                  |                    |
 | [自然辩证法](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E8%87%AA%E7%84%B6%E8%BE%A9%E8%AF%81%E6%B3%95) | 研究生  | 吴炜          | :green_book: |             |                  | :white_check_mark: |
+| [计算机程序理论与模型](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/计算机程序理论与模型) | 研究生  | 张治国,万海   | :green_book: |             | :page_facing_up: |                    |
+| [可计算性与数理逻辑](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/计算机程序理论与模型) | 研究生  | 刘咏梅        | :green_book: |             | :page_facing_up: |                    |
+
 
 
 ## Star History
