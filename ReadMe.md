@@ -49,9 +49,7 @@
 
 
 
-## Star History
 
-[<img src="https://api.star-history.com/svg?repos=ysyisyourbrother/SYSU_Notebook&type=Date" alt="Star History Chart" style="zoom:45%;" />](https://star-history.com/#ysyisyourbrother/SYSU_Notebook&Date)
 
 ## 其他资料
 
@@ -77,21 +75,21 @@ git仓库地址点击👉：​​ [:running:](https://github.com/ysyisyourbroth
 
 
 
+## 贡献
+
+**欢迎贡献！**
+
+目前本项目主要是计算机学院相关课程的笔记和资料分享，我们热烈欢迎本学科、跨学科，甚至是公选课程的投稿贡献。如果你是Github高手，那你尽可使用你喜欢的方式来提交PR。如果你是萌新，你或许可以从[这里学到如何提交一个PR](Contribution.md)。
+
+
+
 ## 声明
 
-有一些精选笔记和分享的资料是来自其他同学或者在基础上更新改进的，在各个学科的文件夹内有指出。感谢大佬同学的资料帮助和分享！如果涉及版权问题请务必私聊我。
-
-
-
-## 联系我
-
-欢迎联系反馈！
-
-如果有其他的重要资料或者考试试题想要分享请联系我：
+有一些精选笔记和分享的资料是来自其他同学或者在基础上更新改进的，在各个学科的文件夹内有指出。感谢大佬同学的资料帮助和分享！如果涉及版权问题，或如果你认为本仓库的一些文件侵犯了您的权益，请务必私聊我，我们将会从仓库中彻底清楚这些文件。欢迎联系反馈！
 
 - 邮箱：yeshy8@mail2.sysu.edu.cn
 
-分享的资料署名权由分享者所有💪
+分享的资料署名权由分享者所有，个人笔记的版权归属于各自作者💪
 
 
 
@@ -102,3 +100,9 @@ git仓库地址点击👉：​​ [:running:](https://github.com/ysyisyourbroth
 本项目仅供学习交流帮助大家学习备考
 
 如果需要课本电子书pdf或者笔记markdown源代码请联系我
+
+
+
+## Star History
+
+[<img src="https://api.star-history.com/svg?repos=ysyisyourbrother/SYSU_Notebook&type=Date" alt="Star History Chart" style="zoom:45%;" />](https://star-history.com/#ysyisyourbrother/SYSU_Notebook&Date)
