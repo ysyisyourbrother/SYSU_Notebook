@@ -14,7 +14,7 @@
 
 一个丰富学科资源分享平台需要同学们一起建设，热烈欢迎您成为仓库的Contributor（[如何贡献本仓库？](Contribution.md)）。
 
-## 目录
+## 课程目录
 
 本仓库中收录的所有科目及资料目录：
 
@@ -52,16 +52,14 @@
 
 
 
+## 相关资料
 
-## 其他资料
-
-### 实验报告模板
+### 1. 实验报告模板
 
 中山大学实验报告markdown模板👉： [:running:](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E6%A8%A1%E6%9D%BF)
 
 
-
-### 互联网春秋招相关
+### 2. 互联网春秋招相关
 
 分享春秋招面试经历，包括leetcode刷题，基础知识，面经和相关准备资料等.
 
@@ -69,13 +67,15 @@ git仓库地址点击👉：​​ [:running:](https://github.com/ysyisyourbroth
 
 
 
-### 保研面试准备
+### 3. 保研面试准备
 
 分享本人及同学保研（or考研）面试准备资料及面试经验
 
 相关资料地址点击👉： [:running:](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E4%BF%9D%E7%A0%94%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87)
 
+### 4. 硕博连读准备
 
+中山大学硕博连读考试题👉： [:running:](https://github.com/ysyisyourbrother/SYSU_Notebook/blob/master/%E5%85%B6%E4%BB%96%E8%B5%84%E6%96%99/2021%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A6%E7%A1%95%E5%8D%9A%E8%BF%9E%E8%AF%BB%E8%80%83%E8%AF%95%E9%A2%98.pdf)
 
 ## 声明
 
