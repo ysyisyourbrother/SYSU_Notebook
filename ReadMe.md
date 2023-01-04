@@ -1,8 +1,12 @@
-# SYSU Notebook
+<p align='center'><img src='./images/sysu.jpeg' width=60%></p>
 
-## About
+本项目分享了中山大学计算机学院的课程资料、笔记、回忆和整理的**期末考试**、**课程作业参考**、保研or夏令营**面试题**、**实验报告模版**以及**科研**或**企业求职**等等相关资料。本仓库为非营利、永久免费的开源项目，同学们可以自由取阅分享（如若方便，转发分享时请注明出处，感谢！）。希望对你们有所帮助❤️，如果喜欢希望能给个star🌟
 
-本项目分享了中山大学计算机学院的课程资料、笔记、回忆和整理的期末考试、课程作业以及保研or夏令营等等相关资料。同学们可以自由取阅分享（如若转发请注明出处！谢谢）。希望对你们有所帮助❤️，如果喜欢记得给个star🌟 
+[![Stars](https://img.shields.io/github/stars/ysyisyourbrother/SYSU_Notebook.svg)](https://github.com/ysyisyourbrother/SYSU_Notebook/stargazers)
+[![Forks](https://img.shields.io/github/forks/ysyisyourbrother/SYSU_Notebook.svg)](https://github.com/ysyisyourbrother/SYSU_Notebook/network/members)
+![GitHub repo size](https://img.shields.io/github/repo-size/ysyisyourbrother/SYSU_Notebook.svg)
+[![Issues](https://img.shields.io/github/issues/ysyisyourbrother/SYSU_Notebook.svg)]()
+![GitHub pull requests](https://img.shields.io/github/issues-pr/ysyisyourbrother/SYSU_Notebook.svg)
 
 ## 如何获取
 
@@ -81,7 +85,7 @@ git仓库地址点击👉：​​ [:running:](https://github.com/ysyisyourbroth
 
 有一些精选笔记和分享的资料是来自其他同学或者在基础上更新改进的，在各个学科的文件夹内有指出。感谢大佬同学的资料帮助和分享！如果涉及版权问题，或如果你认为本仓库的一些文件侵犯了您的权益，请务必私聊我，我们将会从仓库中彻底清楚这些文件。欢迎联系反馈！
 
-- 邮箱：yeshy8@mail2.sysu.edu.cn
+- 邮箱：yeshy8 [AT] mail2.sysu.edu.cn
 
 分享的资料署名权由分享者所有，个人笔记的版权归属于各自作者💪
 
@@ -89,12 +93,11 @@ git仓库地址点击👉：​​ [:running:](https://github.com/ysyisyourbroth
 
 ## 注意：
 
-转发引用请注意标明出处！
+转发引用烦请注意标明出处～
 
-本项目仅供学习交流帮助大家学习备考
+本项目仅供学习交流帮助大家学习备考，资源来自于用户和互联网，其正确性不做保证。
 
-如果需要课本电子书pdf或者笔记markdown源代码请联系我
-
+本仓库的资源默认采用[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)进行许可，有特别说明的除外。
 
 
 ## Star History
