@@ -79,7 +79,7 @@ git仓库地址点击👉：​​ [:running:](https://github.com/ysyisyourbroth
 
 ### 4. 硕博连读准备
 
-中山大学硕博连读考试题👉： [:running:](https://github.com/ysyisyourbrother/SYSU_Notebook/blob/master/%E5%85%B6%E4%BB%96%E8%B5%84%E6%96%99/2021%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A6%E7%A1%95%E5%8D%9A%E8%BF%9E%E8%AF%BB%E8%80%83%E8%AF%95%E9%A2%98.pdf)
+中山大学硕博连读笔试题👉： [[2021](https://github.com/ysyisyourbrother/SYSU_Notebook/blob/master/%E5%85%B6%E4%BB%96%E8%B5%84%E6%96%99/2021%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A6%E7%A1%95%E5%8D%9A%E8%BF%9E%E8%AF%BB%E8%80%83%E8%AF%95%E9%A2%98.pdf)] [[2023](https://github.com/ysyisyourbrother/SYSU_Notebook/blob/master/%E5%85%B6%E4%BB%96%E8%B5%84%E6%96%99/2023%E5%B9%B4%E7%A1%95%E5%8D%9A%E8%BF%9E%E8%AF%BB%E8%B5%84%E6%A0%BC%E8%80%83%E8%AF%95%E5%9B%9E%E5%BF%86.pdf)]
 
 ## 声明
 
