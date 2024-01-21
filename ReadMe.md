@@ -48,10 +48,11 @@
 | [高级分布式系统](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F) | 研究生  | 吴维刚        | :green_book: |             | :page_facing_up: |                    |
 | [计算机体系结构](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84) | 研究生  | 黄凯,吴贺俊   | :green_book: |             |                  |                    |
 | [高级算法设计与分析](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1) | 研究生  | 卓汉逵,张子臻 | :green_book: |             | :page_facing_up: | :white_check_mark: |
-| [高等数值计算方法](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%AD%89%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95) | 研究生  | 张雨浓等      | :green_book: |             |                  |                    |
+| [高等数值计算方法](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%AD%89%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95) | 研究生  | 张雨浓等      | :green_book: | :blue_book: |                  |                    |
 | [自然辩证法](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E8%87%AA%E7%84%B6%E8%BE%A9%E8%AF%81%E6%B3%95) | 研究生  | 吴炜          | :green_book: |             |                  | :white_check_mark: |
-| [计算机程序理论与模型](https://github.com/FlyingFog/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A8%A1%E5%9E%8B) | 研究生  | 张治国,万海   | :green_book: |             | :page_facing_up: |                    |
-| [可计算性与数理逻辑](https://github.com/FlyingFog/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E5%8F%AF%E8%AE%A1%E7%AE%97%E6%80%A7%E4%B8%8E%E6%95%B0%E7%90%86%E9%80%BB%E8%BE%91) | 研究生  | 刘咏梅        | :green_book: |             | :page_facing_up: |                    |
+| [计算机程序理论与模型](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A8%A1%E5%9E%8B) | 研究生  | 张治国,万海   | :green_book: |             | :page_facing_up: |                    |
+| [可计算性与数理逻辑](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E5%8F%AF%E8%AE%A1%E7%AE%97%E6%80%A7%E4%B8%8E%E6%95%B0%E7%90%86%E9%80%BB%E8%BE%91) | 研究生  | 刘咏梅        | :green_book: |             | :page_facing_up: |                    |
+| [计算复杂性](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E8%AE%A1%E7%AE%97%E5%A4%8D%E6%9D%82%E6%80%A7) | 研究生  | 张方国        | :green_book: | :blue_book: |                  | :white_check_mark: |
 
 
 
@@ -65,7 +66,7 @@
 
 ### 2. 互联网春秋招相关
 
-分享春秋招面试经历，包括leetcode刷题，基础知识，面经和相关准备资料等.
+分享春秋招面试经历，包括Leetcode，八股文，面经和其他相关资料等.
 
 git仓库地址点击👉：​​ [:running:](https://github.com/ysyisyourbrother/My-Leetcode)
 
