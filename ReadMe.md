@@ -12,7 +12,7 @@
 
 如果需要下载相关资料但速度过慢，在联系 **我** 之前请尝试使用下面的链接加速下载：
 
-- [DownGit](http://zhoudaxiaa.gitee.io/downgit/#/home) / [Github](https://githubd.com/#/)
+- [DownGit](http://zhoudaxiaa.gitee.io/downgit/#/home) / [Githubd](https://githubd.com/#/)
 
 ## 如何贡献
 
