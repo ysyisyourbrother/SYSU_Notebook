@@ -53,6 +53,7 @@
 | [高级算法设计与分析](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1) | 研究生  | 2022 春  | 卓汉逵,张子臻 | :green_book: |             | :page_facing_up: | :white_check_mark: |
 | [高级最优化方法](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E6%9C%80%E4%BC%98%E5%8C%96%E6%96%B9%E6%B3%95) | 研究生  | 2022 春  | 胡建芳        | :green_book: |             |                  |                    |
 | [计算复杂性](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E8%AE%A1%E7%AE%97%E5%A4%8D%E6%9D%82%E6%80%A7) | 研究生  | 2023 秋  | 张方国        | :green_book: | :blue_book: |                  | :white_check_mark: |
+| [高级数据库系统](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F) | 研究生  | 2023 春  | 刘玉葆        | :green_book: | :blue_book: | :page_facing_up: | :white_check_mark: |
 
 
 ## 相关资料
@@ -66,7 +67,7 @@
 
 分享春秋招面试经历，包括Leetcode，八股文，面经和其他相关资料等.
 
-git仓库地址点击👉：​​ [:running:](https://github.com/ysyisyourbrother/My-Leetcode)
+git仓库地址点击👉： [:running:](https://github.com/ysyisyourbrother/My-Leetcode)
 
 
 
