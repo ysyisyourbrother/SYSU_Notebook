@@ -22,7 +22,7 @@
 
 本仓库中收录的所有科目及资料目录：
 
-|                             课程                             |  学期   | 授课时间 | 老师                    |  教材/课件   |    笔记     |       作业       |  期末考试/大作业   |
+|                             课程                             |  学期   | 授课时间 | 老师                    |  教材/课件   |    笔记     |       作业       |  期末考试   |
 | :----------------------------------------------------------: | :-----: | -------- | ----------------------- | :----------: | :---------: | :--------------: | :----------------: |
 | [概率论与数理统计](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1) | 大一 下 | 2018 春  | 范正平                  | :green_book: | :blue_book: |                  |                    |
 | [数学分析](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90) | 大二 下 | 2019 春  | 李洽                    | :green_book: | :blue_book: | :page_facing_up: |                    |
@@ -56,7 +56,7 @@
 | [高级数据库系统](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F) | 研究生  | 2023 春  | 刘玉葆                  | :green_book: | :blue_book: | :page_facing_up: | :white_check_mark: |
 | [高级计算机体系结构](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84) | 研究生  | 2023秋   | 沈明华                  | :green_book: |             |                  | :white_check_mark: |
 | [新中特](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E8%B7%B5) | 研究生  | 2023秋   |         导师组               |              |             |                  | :white_check_mark: |
-| [高级网络与信息安全](https://github.com/ysyisyourbrother/SYSU_Notebook/blob/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/%E9%AB%98%E7%BA%A7%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8.md) | 研究生  | 2023秋   | 郑培嘉 卢伟 </br>谢逸 金舒原 |              |             |                  | :white_check_mark: |
+| [高级网络与信息安全](https://github.com/ysyisyourbrother/SYSU_Notebook/blob/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/%E9%AB%98%E7%BA%A7%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8.md) | 研究生  | 2023秋   | 郑培嘉 卢伟 </br>谢逸 金舒原 |              |             |       :page_facing_up:           |             |
 
 ## 相关资料
 
