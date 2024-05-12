@@ -55,8 +55,10 @@
 | [计算复杂性](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E8%AE%A1%E7%AE%97%E5%A4%8D%E6%9D%82%E6%80%A7) | 研究生  | 2023 秋  | 张方国                  | :green_book: | :blue_book: |                  | :white_check_mark: |
 | [高级数据库系统](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F) | 研究生  | 2023 春  | 刘玉葆                  | :green_book: | :blue_book: | :page_facing_up: | :white_check_mark: |
 | [高级计算机体系结构](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84) | 研究生  | 2023秋   | 沈明华                  | :green_book: |             |                  | :white_check_mark: |
-| [新中特](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E8%B7%B5) | 研究生  | 2023秋   |         导师组               |              |             |                  | :white_check_mark: |
+| [高级人工智能](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD) | 研究生  | 2023秋   |         潘炎             | :green_book: |             | :page_facing_up: | :white_check_mark: |
 | [高级网络与信息安全](https://github.com/ysyisyourbrother/SYSU_Notebook/blob/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/%E9%AB%98%E7%BA%A7%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8.md) | 研究生  | 2023秋   | 郑培嘉 卢伟 </br>谢逸 金舒原 |              |             |       :page_facing_up:           |             |
+| [复变函数](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/课程资料/复变函数) | 研究生 | 2023秋 | 骆伟祺 | :green_book: | | :page_facing_up: | :white_check_mark: |
+
 
 ## 相关资料
 
