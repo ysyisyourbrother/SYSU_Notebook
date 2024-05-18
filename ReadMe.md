@@ -22,6 +22,7 @@
 
 本仓库中收录的所有科目及资料目录：
 
+
 |                             课程                             |  学期   | 授课时间 | 老师                    |  教材/课件   |    笔记     |       作业       |  期末考试   |
 | :----------------------------------------------------------: | :-----: | -------- | ----------------------- | :----------: | :---------: | :--------------: | :----------------: |
 | [概率论与数理统计](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1) | 大一 下 | 2018 春  | 范正平                  | :green_book: | :blue_book: |                  |                    |
@@ -49,15 +50,17 @@
 | [计算机体系结构](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84) | 研究生  | 2021 秋  | 黄凯,吴贺俊             | :green_book: |             |                  |                    |
 | [计算机程序理论与模型](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A8%A1%E5%9E%8B) | 研究生  | 2021 秋  | 张治国,万海             | :green_book: |             | :page_facing_up: |                    |
 | [可计算性与数理逻辑](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E5%8F%AF%E8%AE%A1%E7%AE%97%E6%80%A7%E4%B8%8E%E6%95%B0%E7%90%86%E9%80%BB%E8%BE%91) | 研究生  | 2021 秋  | 刘咏梅                  | :green_book: |             | :page_facing_up: |                    |
-| [自然辩证法](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E8%87%AA%E7%84%B6%E8%BE%A9%E8%AF%81%E6%B3%95) | 研究生  | 2022 春  | 吴炜                    | :green_book: |             |                  | :white_check_mark: |
+| [自然辩证法](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E8%87%AA%E7%84%B6%E8%BE%A9%E8%AF%81%E6%B3%95/%E8%87%AA%E7%84%B6%E8%BE%A9%E8%AF%81%E6%B3%95-%E5%90%B4%E7%82%9C) | 研究生  | 2022 春  | 吴炜                    | :green_book: |             |                  | :white_check_mark: |
 | [高级算法设计与分析](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1) | 研究生  | 2022 春  | 卓汉逵,张子臻           | :green_book: |             | :page_facing_up: | :white_check_mark: |
 | [高级最优化方法](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E6%9C%80%E4%BC%98%E5%8C%96%E6%96%B9%E6%B3%95) | 研究生  | 2022 春  | 胡建芳                  | :green_book: |             |                  |                    |
 | [计算复杂性](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E8%AE%A1%E7%AE%97%E5%A4%8D%E6%9D%82%E6%80%A7) | 研究生  | 2023 秋  | 张方国                  | :green_book: | :blue_book: |                  | :white_check_mark: |
+| [高级计算机体系结构](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84) | 研究生  | 2023 秋  | 沈明华                  | :green_book: |             |                  | :white_check_mark: |
+| [高级人工智能](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD) | 研究生  | 2023 秋  |         潘炎             | :green_book: |             | :page_facing_up: | :white_check_mark: |
+| [高级网络与信息安全](https://github.com/ysyisyourbrother/SYSU_Notebook/blob/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/%E9%AB%98%E7%BA%A7%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8.md) | 研究生  | 2023 秋  | 郑培嘉 卢伟 </br>谢逸 金舒原 |              |             |       :page_facing_up:           |             |
+| [复变函数](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/课程资料/复变函数) | 研究生 | 2023 秋 | 骆伟祺 | :green_book: | | :page_facing_up: | :white_check_mark: |
+| [自然辩证法](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E8%87%AA%E7%84%B6%E8%BE%A9%E8%AF%81%E6%B3%95/%E8%87%AA%E7%84%B6%E8%BE%A9%E8%AF%81%E6%B3%95-%E5%86%AF%E5%BA%86%E6%83%B3) | 研究生 | 2023 春 | 冯庆想 | :green_book: | | :page_facing_up: | :white_check_mark: |
 | [高级数据库系统](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F) | 研究生  | 2023 春  | 刘玉葆                  | :green_book: | :blue_book: | :page_facing_up: | :white_check_mark: |
-| [高级计算机体系结构](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84) | 研究生  | 2023秋   | 沈明华                  | :green_book: |             |                  | :white_check_mark: |
-| [高级人工智能](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD) | 研究生  | 2023秋   |         潘炎             | :green_book: |             | :page_facing_up: | :white_check_mark: |
-| [高级网络与信息安全](https://github.com/ysyisyourbrother/SYSU_Notebook/blob/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/%E9%AB%98%E7%BA%A7%E7%BD%91%E7%BB%9C%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8.md) | 研究生  | 2023秋   | 郑培嘉 卢伟 </br>谢逸 金舒原 |              |             |       :page_facing_up:           |             |
-| [复变函数](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/课程资料/复变函数) | 研究生 | 2023秋 | 骆伟祺 | :green_book: | | :page_facing_up: | :white_check_mark: |
+
 
 
 ## 相关资料
