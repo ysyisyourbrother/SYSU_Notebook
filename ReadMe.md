@@ -63,7 +63,7 @@
 | 2024 春  | [高级数据库系统](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F) |  研究生  | 刘玉葆,卞静                  | :green_book: | :blue_book: | :page_facing_up: | :white_check_mark: |
 | 2024 春  | [高级算法设计与分析](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E9%AB%98%E7%BA%A7%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/%E9%AB%98%E7%BA%A7%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1-%E6%88%B4%E6%99%BA%E6%98%8E-%E5%BC%A0%E5%AD%90%E8%87%BB) |  研究生  | 戴智明,张子臻                | :green_book: |             |                  | :white_check_mark: |
 | 2024 春+秋  | [矩阵分析](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E7%9F%A9%E9%98%B5%E5%88%86%E6%9E%90) |  研究生  | 马锦华, 黎卫兵               | :green_book: |             | :page_facing_up: | :white_check_mark: |
-| 2024 秋 | [新中特](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/新中特) | 研究生 | 袁清瑞，李安勇 | :green_book: | | | :white_check_mark: |
+| 2024 秋 | [新中特](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/新中特) | 研究生 | 袁清瑞，李安勇 | | | | :white_check_mark: |
 
 注：即使是同一门课程，授课内容和考核方式也会因为授课时间和授课老师变化而改变。因此我们按照授课时间顺序对所有课程记录进行排序，同一门课程可能存在多条不同授课时间或老师的记录。
 
