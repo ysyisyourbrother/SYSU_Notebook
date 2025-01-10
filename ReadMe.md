@@ -69,6 +69,7 @@
 | 2024 春<br />2024 秋 | [矩阵分析](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E7%9F%A9%E9%98%B5%E5%88%86%E6%9E%90) |  研究生  | 马锦华,黎卫兵               | :green_book: |             | :page_facing_up: | :white_check_mark: |
 | 2024 秋              | [新中特](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/新中特) |  研究生  | 袁清瑞,李安勇               |              |             |                  | :white_check_mark: |
 | 2021 秋<br />2024 秋  | [可计算性与数理逻辑](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E5%8F%AF%E8%AE%A1%E7%AE%97%E6%80%A7%E4%B8%8E%E6%95%B0%E7%90%86%E9%80%BB%E8%BE%91) |  研究生  | 刘咏梅,周晓聪                       | :green_book: |             | :page_facing_up: | :white_check_mark: |
+| 2024 秋  | [自然语言处理](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E5%8F%AF%E8%AE%A1%E7%AE%97%E6%80%A7%E4%B8%8E%E6%95%B0%E7%90%86%E9%80%BB%E8%BE%91) |  研究生  | 杨猛                    | :green_book: |             |  |  |
 
 注：即使是同一门课程，授课内容和考核方式也会因为授课时间和授课老师变化而改变。因此我们按照授课时间顺序对所有课程记录进行排序，同一门课程可能存在多条不同授课时间或老师的记录。
 
