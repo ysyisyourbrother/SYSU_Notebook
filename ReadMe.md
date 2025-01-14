@@ -18,6 +18,13 @@
 
 一个丰富学科资源分享平台需要同学们一起建设，热烈欢迎您成为仓库的Contributor（[如何贡献本仓库？](Contribution.md)）
 
+### Contributors
+对所有参与本学科资源分享平台建设的同学们表达衷心的感谢❤️
+
+<a href="https://github.com/ysyisyourbrother/SYSU_Notebook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ysyisyourbrother/SYSU_Notebook" />
+</a>
+
 ## 课程目录
 
 ### 本科生课程
@@ -111,7 +118,7 @@ git仓库地址点击👉： [:running:](https://github.com/ysyisyourbrother/My-
 
 
 
-## 注意：
+## 注意
 
 转发引用烦请注意标明出处～
 
