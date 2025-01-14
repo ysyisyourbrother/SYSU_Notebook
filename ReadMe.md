@@ -44,7 +44,7 @@
 | 2020 春    | [云计算概论](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E4%BA%91%E8%AE%A1%E7%AE%97%E6%A6%82%E8%AE%BA) | 大三 下  | 陈志广                       | :green_book: | :blue_book: | :page_facing_up: | :white_check_mark: |
 | 2020 春    | [智能控制](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E6%99%BA%E8%83%BD%E6%8E%A7%E5%88%B6) | 大三 下  | 谭宁                         | :green_book: |             | :page_facing_up: |                    |
 | 2020 春    | [智能算法与应用](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E6%99%BA%E8%83%BD%E7%AE%97%E6%B3%95%E4%B8%8E%E5%BA%94%E7%94%A8) | 大三 下  | 王甲海                       | :green_book: |             | :page_facing_up: |                    |
-| 2024 秋    | [计算机网络](没地址) | 大三 上  | 田海博                       | :green_book: |             | :page_facing_up: |                    |
+| 2024 秋    | [计算机网络](没地址) | 大三 上  | 田海博                         |             | :blue_book:  |             |                    |
 
 
 
