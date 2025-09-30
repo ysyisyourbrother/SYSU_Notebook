@@ -57,7 +57,10 @@
 | 2020 春    | [智能控制](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E6%99%BA%E8%83%BD%E6%8E%A7%E5%88%B6) | 大三 下  | 谭宁                         | :green_book: |             | :page_facing_up: |                    |
 | 2020 春    | [智能算法与应用](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E6%99%BA%E8%83%BD%E7%AE%97%E6%B3%95%E4%B8%8E%E5%BA%94%E7%94%A8) | 大三 下  | 王甲海                       | :green_book: |             | :page_facing_up: |                    |
 | 2024 秋    | [计算机网络](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C2024/%E7%AC%94%E8%AE%B0) | 大三 上  | 田海博                         |             | :blue_book:  |             |                    |
-
+| 2024 秋    | [数字图像处理](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E6%95%B0%E5%AD%97%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86) | 大三 上  | 骆伟祺                       | :green_book: | :blue_book: | :page_facing_up: | :white_check_mark: |
+| 2024 秋    | [密码学](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E5%AF%86%E7%A0%81%E5%AD%A6) | 大三 上  | 张方国	                       |  | :blue_book: |  | :white_check_mark: |
+| 2024 秋    | [最优化方法](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E6%9C%80%E4%BC%98%E5%8C%96%E6%96%B9%E6%B3%95) | 大三 上  | 凌青,杨磊	                       |              |   :blue_book:          |                  | :white_check_mark: |
+| 2024 秋    | [机器学习与数据挖掘](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98) | 大三 下  | 张冬雨,林倞	                       |  | :blue_book: |  | :white_check_mark: |
 
 
 ### 研究生课程
