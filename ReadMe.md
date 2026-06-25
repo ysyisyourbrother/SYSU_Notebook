@@ -57,7 +57,7 @@
 | 2024 秋    | [密码学](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E5%AF%86%E7%A0%81%E5%AD%A6) | 大三 上  | 张方国	                       |  | :blue_book: |  | :white_check_mark: |
 | 2024 秋    | [最优化方法](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E6%9C%80%E4%BC%98%E5%8C%96%E6%96%B9%E6%B3%95) | 大三 上  | 凌青,杨磊	                       |              |   :blue_book:          |                  | :white_check_mark: |
 | 2024 秋    | [机器学习与数据挖掘](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98) | 大三 下  | 张冬雨,林倞	                       |  | :blue_book: |  | :white_check_mark: |
-| 2025 春    | [人工智能](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD_2025%E6%98%A5) | 大三 下  | 陈川                         | :green_book: | :blue_book: |                  |                    |
+| 2025 春    | [人工智能](https://github.com/ysyisyourbrother/SYSU_Notebook/tree/master/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD_2025%E6%98%A5) | 大二 下  | 陈川                         | :green_book: | :blue_book: |                  |                    |
 
 
 ### 研究生课程
